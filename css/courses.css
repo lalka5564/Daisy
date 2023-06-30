@@ -1,0 +1,641 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 49px;
+    z-index: 10;
+    left: 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 20px;
+}
+
+header .header--logo {
+    margin-left: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header--logo img {
+    max-width: 174px;
+    width: 100%;
+}
+
+header .header__navbar {
+    max-width: 869px;
+    background: rgba(224, 103, 195, .1);
+    border-radius: 5px;
+    padding: 13px 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 69px;
+}
+
+header .header__navbar a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+}
+
+section.intro {
+    min-height: 791px;
+    padding-top: 218px;
+    display: flex;
+    align-items: flex-end;
+}
+
+section.intro.bg {
+    background: rgba(224, 103, 195, .1);
+}
+
+section.intro .container.course {
+    display: flex;
+    align-items: center;
+    min-height: 554px;
+}
+
+section.intro .container.course .girl {
+    right: 0;
+}
+
+section.intro .container .girl {
+    position: absolute;
+    bottom: 0;
+    height: 628px;
+}
+
+img {
+    max-width: 100%;
+}
+
+section.intro .container .content {
+    position: relative;
+}
+
+section.intro .container .content .content__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #000;
+    margin-bottom: 48px;
+}
+
+section.intro .container .content .content__info {
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    margin-bottom: 40px;
+}
+
+section.intro .container .content .content__btns {
+    display: flex;
+    align-items: center;
+    grid-gap: 37px;
+}
+
+section.intro .container .content .content__btns .btn {
+    max-width: 365px;
+    width: 100%;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    background: #e067c3;
+    border-radius: 15px;
+}
+
+section.intro.bg .container {
+    background: none;
+}
+
+section.intro .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+section.course {
+    margin: 186px 0px;
+    margin-bottom: 60px;
+}
+
+section.course .course__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 120px;
+}
+
+section.course .course__block {
+    margin-bottom: 120px;
+    width: 100%;
+    padding: 41px;
+    background: rgba(224, 103, 195, .1);
+    border-radius: 21px;
+}
+
+section.course .course__block .block__image {
+    width: 100%;
+    height: 263px;
+    border-radius: 21px;
+    margin-bottom: 38px;
+}
+
+section.course .course__block .block__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 58px;
+}
+
+section.course .course__block .block__name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+}
+
+section.course .course__block .line {
+    width: 100%;
+    margin-top: 18px;
+    height: 1px;
+    background: #e067c3;
+    margin-bottom: 29px;
+}
+
+section.course .course__block .footer {
+    width: 100%;
+}
+
+section.course .course__block .footer .footer__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+}
+
+section.course .course__block .footer .price b.old_price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, .25);
+}
+
+section.course .course__block .footer .price b {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000;
+}
+
+section.course .course__block .footer button {
+    margin-top: 28px;
+    width: 100%;
+    height: 71px;
+    background: #e067c3;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+section.portfolio {
+    padding: 72px 0px;
+    background: rgba(224, 103, 195, .1);
+}
+
+section.portfolio .portfolio--title {
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000;
+    margin-bottom: 68px;
+}
+
+section.reviews {
+    margin-top: 126px;
+    margin-bottom: 354px;
+}
+
+section.reviews .reviews--title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 83px;
+}
+
+footer {
+    padding-bottom: 79px;
+    background: #131012;
+}
+
+footer .footer--content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    grid-gap: 86px;
+    position: relative;
+    width: 100%;
+}
+
+footer .footer--content .content {
+    padding-top: 72px;
+    max-width: calc(100% - 514px - 86px);
+    width: 100%;
+}
+
+footer .footer--content .content .content--header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+footer .footer--content .content .content--header .header--text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #fff;
+}
+
+footer .footer--content .content .content--header .header--social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    grid-gap: 21px;
+}
+
+footer .footer--content .content .content--adress {
+    margin-bottom: 34px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155.6%;
+    color: #fff;
+}
+
+footer .footer--logo {
+    margin-top: 87px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer--content .content .content--actions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer--content .content .content--actions a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 155.6%;
+    color: #e067c3;
+}
+
+footer .footer--content .content .content--actions .actions--btn {
+    padding: 20px 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    background: #e067c3;
+    border-radius: 15px;
+}
+
+footer .footer--content .footer--map {
+    margin-top: -537px;
+    max-width: 514px;
+    max-height: 514px;
+    width: 100%;
+    height: 100%;
+    margin-left: -605px;
+}
+
+.modal_overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    max-height: 100vh;
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    padding: 10px
+}
+
+.modal_overlay.active {
+    display: flex
+}
+
+@media screen and (max-width: 634px) {
+    .modal_overlay {
+        padding: 0
+    }
+}
+
+.modal_overlay .modal {
+    transform: scale(0.8);
+    position: relative;
+    max-width: 629px;
+    width: 100%;
+    background: #fff;
+    border-radius: 72px;
+    padding: 102px 77px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.modal_overlay .modal.active {
+    display: flex
+}
+
+@media screen and (max-width: 634px) {
+    .modal_overlay .modal {
+        transform: scale(1);
+        border-radius: 0px;
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        justify-content: flex-start
+    }
+}
+
+.modal_overlay .modal.alert {
+    min-height: 1170px;
+    justify-content: center
+}
+
+@media screen and (max-width: 634px) {
+    .modal_overlay .modal.alert {
+        min-height: auto
+    }
+}
+
+.modal_overlay .modal.alert .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 166.2%;
+    text-align: center;
+    color: #000
+}
+
+.modal_overlay .modal.alert .content img {
+    width: 58px;
+    margin-bottom: 54px
+}
+
+.modal_overlay .modal .close {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer
+}
+
+@media screen and (max-width: 634px) {
+    .modal_overlay .modal .close {
+        top: 30px;
+        right: 30px
+    }
+
+    .modal_overlay .modal .close img {
+        width: 25px
+    }
+}
+
+.modal_overlay .modal .close img {
+    width: 38px
+}
+
+@media screen and (max-width: 634px) {
+    .modal_overlay .modal .close img {
+        width: 25px
+    }
+}
+
+.modal_overlay .modal .modal__header {
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 166.2%;
+    color: #000;
+    margin-bottom: 50px
+}
+
+@media screen and (max-width: 634px) {
+    .modal_overlay .modal .modal__header {
+        margin-bottom: 20px;
+        font-size: 28px
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .modal_overlay .modal .modal__header {
+        font-size: 18px
+    }
+}
+
+.modal_overlay .modal .modal__wrap {
+    width: 100%;
+    margin-bottom: 34px
+}
+
+@media screen and (max-width: 634px) {
+    .modal_overlay .modal .modal__wrap {
+        margin-bottom: 15px
+    }
+}
+
+.modal_overlay .modal .modal__wrap .label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 166.2%;
+    color: #000;
+    margin-bottom: 5px
+}
+
+.modal_overlay .modal .modal__wrap .label b {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 166.2%;
+    color: rgba(0, 0, 0, .5)
+}
+
+@media screen and (max-width: 634px) {
+    .modal_overlay .modal .modal__wrap .label b {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .modal_overlay .modal .modal__wrap .label {
+        font-size: 18px
+    }
+}
+
+.modal_overlay .modal .modal__wrap select,
+.modal_overlay .modal .modal__wrap input {
+    width: 100%;
+    height: 93px;
+    background: #f3f3f3;
+    border-radius: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 166.2%;
+    padding: 0 48px;
+    color: rgba(0, 0, 0, .6)
+}
+
+@media screen and (max-width: 634px) {
+
+    .modal_overlay .modal .modal__wrap select,
+    .modal_overlay .modal .modal__wrap input {
+        font-size: 18px;
+        height: 73px
+    }
+}
+
+.modal_overlay .modal .modal__wrap select::-moz-placeholder,
+.modal_overlay .modal .modal__wrap input::-moz-placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 166.2%;
+    color: rgba(0, 0, 0, .6)
+}
+
+.modal_overlay .modal .modal__wrap select::placeholder,
+.modal_overlay .modal .modal__wrap input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 166.2%;
+    color: rgba(0, 0, 0, .6)
+}
+
+@media screen and (max-width: 634px) {
+
+    .modal_overlay .modal .modal__wrap select::-moz-placeholder,
+    .modal_overlay .modal .modal__wrap input::-moz-placeholder {
+        font-size: 18px
+    }
+
+    .modal_overlay .modal .modal__wrap select::placeholder,
+    .modal_overlay .modal .modal__wrap input::placeholder {
+        font-size: 18px
+    }
+}
+
+.modal_overlay .modal button {
+    height: 93px;
+    width: 100%;
+    background: #e067c3;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 44px
+}
+
+@media screen and (max-width: 634px) {
+    .modal_overlay .modal button {
+        margin-bottom: 20px;
+        font-size: 16px;
+        height: 60px
+    }
+}
+
+.modal_overlay .modal .agree {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+
+input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+}
+
+input:valid {
+    border: 2px solid black;
+}
